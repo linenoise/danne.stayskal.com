@@ -1,6 +1,6 @@
 /*
 * layout.css
-* Copyright 2016 Danne Stayskal <danne@stayskal.com>
+* Copyright 2016-2018 Danne Stayskal <danne@stayskal.com>
 * For http://danne.stayskal.com/
 *
 * License: Creative Commons BY-NC-SA 3.0 US
@@ -11,6 +11,12 @@
     # Typography
     # Layout
     # Landing page
+    # Artwork pages
+    # Book pages
+    # Music pages
+    # Software pages
+    # Vitae page
+    # Writing pages
     # Media Queries
         # Netbooks and Tablets (landscape)
         # Tablets (portrait) and Phones (landscape)
@@ -43,6 +49,10 @@ h2 {
 
 h3 {
   font-size: 18pt; }
+
+pre, code, time {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 115%; }
 
 /* Layout
 ================================================== */
@@ -375,3 +385,48 @@ h2.writing {
 
 .writing.row .lede {
   padding-top: 20px; }
+
+.writing.row ol.timeline {
+  border-left: 4px solid #e6e6e6;
+  margin-left: 20px;
+  list-style: none;
+  position: relative;
+  padding-top: 0px; }
+
+.writing.row ol.timeline > li:before {
+  content: " ";
+  width: 26px;
+  height: 26px;
+  display: block;
+  background: #e6e6e6;
+  position: absolute;
+  left: 0px;
+  margin-top: 0px;
+  margin-left: -15px;
+  border-radius: 26px;
+  z-index: 5; }
+
+.writing.row ol.timeline > li {
+  padding-left: 10px; }
+
+.writing.row ol.timeline p {
+  padding-left: 0px;
+  margin-bottom: 1em; }
+
+.writing.row ol.timeline time {
+  font-weight: bold; }
+
+.writing.row ol.timeline ul {
+  margin: 0px 1em 1em 1em;
+  list-style: disc; }
+
+.writing.row ol.timeline ul li {
+  margin-bottom: 0px; }
+
+.writing.row.burnlog-nav {
+  border-top: 10px solid #e6e6e6; }
+
+.writing.row.burnlog-nav > div {
+  text-align: center;
+  font-size: 150%;
+  margin: 1em auto 1em auto; }
