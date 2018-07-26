@@ -37,7 +37,7 @@ body {
 .container {
   background-color: #f4f4f4; }
 
-h1, h2, h3 {
+h1, h2, h3, time {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: normal; }
 
@@ -50,7 +50,7 @@ h2 {
 h3 {
   font-size: 18pt; }
 
-pre, code, time {
+pre, code {
   font-family: 'Cutive Mono', monospace;
   font-size: 115%; }
 
@@ -414,7 +414,8 @@ h2.writing {
   margin-bottom: 1em; }
 
 .writing.row ol.timeline time {
-  font-weight: bold; }
+  font-weight: bold;
+  font-variant: small-caps; }
 
 .writing.row ol.timeline ul {
   margin: 0px 1em 1em 1em;
