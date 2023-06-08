@@ -31,7 +31,7 @@ body, html {
   font-family: 'Open Sans', sans-serif; }
 
 body {
-  color: #4f5150;
+  color: #2B3136;
   background-color: #F1EFED; }
 
 h1, h2, h3, time {
@@ -56,13 +56,13 @@ pre, code {
 ================================================== */
 div.row > div {
   background-color: #f4f4f4;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #E8E9EA;
   margin-top: 24px; }
 
 .title h1 {
   padding: 16px 24px;
   padding-bottom: 15px;
-  background-color: #4f5150;
+  background-color: #2B3136;
   margin-top: 23px;
   margin-bottom: 4px; }
 
@@ -75,22 +75,22 @@ a {
   font-weight: bold; }
 
 .artwork a, a.artwork {
-  color: #b10837; }
+  color: #C13540; }
 
 .books a, a.books {
-  color: #fe7b01; }
+  color: #E97E49; }
 
 .music a, a.music {
-  color: #f7b718; }
+  color: #F3B24B; }
 
 .software a, a.software {
-  color: #93a956; }
+  color: #689144; }
 
 .vitae a, a.vitae {
-  color: #007c84; }
+  color: #356695; }
 
 .writing a, a.writing {
-  color: #522d63; }
+  color: #7050A6; }
 
 footer img.ligature {
   aspect-ratio: 2.14;
@@ -101,7 +101,7 @@ nav {
   padding: 1em 0px;
   background-color: #f4f4f4;
   margin-top: 24px;
-  border: 1px solid #e6e6e6; }
+  border: 1px solid #E8E9EA; }
 
 nav a {
   font-size: 18pt;
@@ -114,13 +114,22 @@ nav a:last-child {
 
 footer {
   padding: 1em 0px 1em 0px;
-  color: #e6e6e6;
-  background-color: #4f5150;
+  color: #E8E9EA;
+  background-color: #2B3136;
   margin-top: 24px;
   margin-bottom: 24px; }
 
 footer p {
   margin: 0em 1em; }
+
+footer p strong {
+  font-size: 150%; }
+
+footer img {
+  max-width: 90%;
+  width: auto;
+  height: auto;
+  padding-left: 10%; }
 
 /* Landing page
 ================================================== */
@@ -140,10 +149,10 @@ footer p {
 /* Artwork pages
 ================================================== */
 header.title h1.artwork {
-  background-color: #b10837; }
+  background-color: #C13540; }
 
 h2.artwork {
-  color: #b10837; }
+  color: #C13540; }
 
 .artwork.row h2, .artwork.row p, .artwork.row img, .artwork.row ul {
   padding-left: 24px; }
@@ -171,10 +180,10 @@ h2.artwork {
 /* Books pages
 ================================================== */
 header.title h1.books {
-  background-color: #fe7b01; }
+  background-color: #E97E49; }
 
 h2.books {
-  color: #fe7b01; }
+  color: #E97E49; }
 
 .books.row h2, .books.row p, .books.row img, .books.row ul {
   padding-left: 24px; }
@@ -192,10 +201,10 @@ h2.books {
 /* Music pages
 ================================================== */
 header.title h1.music {
-  background-color: #f7b718; }
+  background-color: #F3B24B; }
 
 h2.music {
-  color: #f7b718; }
+  color: #F3B24B; }
 
 .music.row h2, .music.row p, .music.row img, .music.row ul {
   padding-left: 24px; }
@@ -225,10 +234,10 @@ h2.music {
 /* Software pages
 ================================================== */
 header.title h1.software {
-  background-color: #93a956; }
+  background-color: #689144; }
 
 h2.software {
-  color: #93a956; }
+  color: #689144; }
 
 .software.row h2, .software.row p, .software.row img, .software.row ul, .software pre {
   padding-left: 24px; }
@@ -255,36 +264,23 @@ h2.software {
   border-bottom: 0px !important; }
 
 #legacy {
-  color: #e6e6e6;
-  background-color: #4f5150;
+  color: #E8E9EA;
+  background-color: #2B3136;
   padding: 24px; }
 
 /* Vitae page
 ================================================== */
 header.title h1.vitae {
-  background-color: #007c84; }
+  background-color: #356695; }
 
 h2.vitae {
-  color: #007c84; }
-
-.vitae .photo {
-  text-align: left; }
-
-@media (min-width: 1000px) {
-  .vitae .photo {
-    text-align: center; } }
-.vitae .photo::after {
-  content: "";
-  clear: both;
-  display: table; }
+  color: #356695; }
 
 .vitae img.profile {
-  width: 290px;
-  aspect-ratio: 0.54;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em; }
+  max-width: 90%;
+  width: auto;
+  height: auto;
+  padding: 0px; }
 
 .vitae.row h2, .vitae.row p, .vitae.row img, .vitae.row ul {
   padding-left: 24px;
@@ -339,7 +335,7 @@ h2.vitae {
   background: white; }
 
 .vitae div.progress-container > div {
-  background-color: #007c84;
+  background-color: #356695;
   height: 1em; }
 
 .vitae.row .dates {
@@ -360,10 +356,10 @@ h2.vitae {
 /* Writing pages
 ================================================== */
 header.title h1.writing {
-  background-color: #522d63; }
+  background-color: #7050A6; }
 
 h2.writing {
-  color: #522d63; }
+  color: #7050A6; }
 
 .writing.row h2, .writing.row p, .writing.row img, .writing.row ul, .writing.row ol {
   padding-left: 24px;
@@ -389,7 +385,7 @@ h2.writing {
   padding-top: 24px; }
 
 .writing.row ol.timeline {
-  border-left: 4px solid #e6e6e6;
+  border-left: 4px solid #E8E9EA;
   margin-left: 24px;
   list-style: none;
   position: relative;
@@ -400,7 +396,7 @@ h2.writing {
   width: 26px;
   height: 26px;
   display: block;
-  background: #e6e6e6;
+  background: #E8E9EA;
   position: absolute;
   left: 0px;
   margin-top: 0px;
