@@ -32,11 +32,7 @@ body, html {
 
 body {
   color: #4f5150;
-  background-color: #F1EFED;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.05) 1px, rgba(0, 0, 0, 0) 0px), linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, rgba(0, 0, 0, 0) 0px), linear-gradient(rgba(0, 0, 0, 0.035) 1px, rgba(0, 0, 0, 0) 0px), linear-gradient(90deg, rgba(0, 0, 0, 0.035) 1px, rgba(0, 0, 0, 0) 0px);
-  background-position-x: -1px, -1px, -1px, -1px;
-  background-position-y: -1px, -1px, -1px, -1px;
-  background-size: 96px 96px, 96px 96px, 24px 24px, 24px 24px; }
+  background-color: #F1EFED; }
 
 h1, h2, h3, time {
   font-family: 'Montserrat', sans-serif;
